@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		088758D91AC5E08B00070129 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088758D81AC5E08B00070129 /* AppDelegate.swift */; };
+		088758DB1AC5E08B00070129 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 088758DA1AC5E08B00070129 /* GameScene.sks */; };
+		088758DD1AC5E08B00070129 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088758DC1AC5E08B00070129 /* GameScene.swift */; };
+		088758DF1AC5E08B00070129 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088758DE1AC5E08B00070129 /* GameViewController.swift */; };
+		088758E21AC5E08B00070129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088758E01AC5E08B00070129 /* Main.storyboard */; };
+		088758E41AC5E08B00070129 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088758E31AC5E08B00070129 /* Images.xcassets */; };
+		088758E71AC5E08B00070129 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 088758E51AC5E08B00070129 /* LaunchScreen.xib */; };
+		088758F31AC5E08B00070129 /* conquerTheGalaxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088758F21AC5E08B00070129 /* conquerTheGalaxyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		088758ED1AC5E08B00070129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 088758CB1AC5E08B00070129 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 088758D21AC5E08B00070129;
+			remoteInfo = conquerTheGalaxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		088758D31AC5E08B00070129 /* conquerTheGalaxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = conquerTheGalaxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		088758D71AC5E08B00070129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088758D81AC5E08B00070129 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		088758DA1AC5E08B00070129 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		088758DC1AC5E08B00070129 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		088758DE1AC5E08B00070129 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		088758E11AC5E08B00070129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		088758E31AC5E08B00070129 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		088758E61AC5E08B00070129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		088758EC1AC5E08B00070129 /* conquerTheGalaxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = conquerTheGalaxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		088758F11AC5E08B00070129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088758F21AC5E08B00070129 /* conquerTheGalaxyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conquerTheGalaxyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		088758D01AC5E08B00070129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088758E91AC5E08B00070129 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		088758CA1AC5E08B00070129 = {
+			isa = PBXGroup;
+			children = (
+				088758D51AC5E08B00070129 /* conquerTheGalaxy */,
+				088758EF1AC5E08B00070129 /* conquerTheGalaxyTests */,
+				088758D41AC5E08B00070129 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		088758D41AC5E08B00070129 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				088758D31AC5E08B00070129 /* conquerTheGalaxy.app */,
+				088758EC1AC5E08B00070129 /* conquerTheGalaxyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		088758D51AC5E08B00070129 /* conquerTheGalaxy */ = {
+			isa = PBXGroup;
+			children = (
+				088758D81AC5E08B00070129 /* AppDelegate.swift */,
+				088758DA1AC5E08B00070129 /* GameScene.sks */,
+				088758DC1AC5E08B00070129 /* GameScene.swift */,
+				088758DE1AC5E08B00070129 /* GameViewController.swift */,
+				088758E01AC5E08B00070129 /* Main.storyboard */,
+				088758E31AC5E08B00070129 /* Images.xcassets */,
+				088758E51AC5E08B00070129 /* LaunchScreen.xib */,
+				088758D61AC5E08B00070129 /* Supporting Files */,
+			);
+			path = conquerTheGalaxy;
+			sourceTree = "<group>";
+		};
+		088758D61AC5E08B00070129 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				088758D71AC5E08B00070129 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		088758EF1AC5E08B00070129 /* conquerTheGalaxyTests */ = {
+			isa = PBXGroup;
+			children = (
+				088758F21AC5E08B00070129 /* conquerTheGalaxyTests.swift */,
+				088758F01AC5E08B00070129 /* Supporting Files */,
+			);
+			path = conquerTheGalaxyTests;
+			sourceTree = "<group>";
+		};
+		088758F01AC5E08B00070129 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				088758F11AC5E08B00070129 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		088758D21AC5E08B00070129 /* conquerTheGalaxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088758F61AC5E08B00070129 /* Build configuration list for PBXNativeTarget "conquerTheGalaxy" */;
+			buildPhases = (
+				088758CF1AC5E08B00070129 /* Sources */,
+				088758D01AC5E08B00070129 /* Frameworks */,
+				088758D11AC5E08B00070129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = conquerTheGalaxy;
+			productName = conquerTheGalaxy;
+			productReference = 088758D31AC5E08B00070129 /* conquerTheGalaxy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		088758EB1AC5E08B00070129 /* conquerTheGalaxyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088758F91AC5E08B00070129 /* Build configuration list for PBXNativeTarget "conquerTheGalaxyTests" */;
+			buildPhases = (
+				088758E81AC5E08B00070129 /* Sources */,
+				088758E91AC5E08B00070129 /* Frameworks */,
+				088758EA1AC5E08B00070129 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				088758EE1AC5E08B00070129 /* PBXTargetDependency */,
+			);
+			name = conquerTheGalaxyTests;
+			productName = conquerTheGalaxyTests;
+			productReference = 088758EC1AC5E08B00070129 /* conquerTheGalaxyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		088758CB1AC5E08B00070129 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Carlos;
+				TargetAttributes = {
+					088758D21AC5E08B00070129 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					088758EB1AC5E08B00070129 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 088758D21AC5E08B00070129;
+					};
+				};
+			};
+			buildConfigurationList = 088758CE1AC5E08B00070129 /* Build configuration list for PBXProject "conquerTheGalaxy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 088758CA1AC5E08B00070129;
+			productRefGroup = 088758D41AC5E08B00070129 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				088758D21AC5E08B00070129 /* conquerTheGalaxy */,
+				088758EB1AC5E08B00070129 /* conquerTheGalaxyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		088758D11AC5E08B00070129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088758E71AC5E08B00070129 /* LaunchScreen.xib in Resources */,
+				088758E41AC5E08B00070129 /* Images.xcassets in Resources */,
+				088758DB1AC5E08B00070129 /* GameScene.sks in Resources */,
+				088758E21AC5E08B00070129 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088758EA1AC5E08B00070129 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088758CF1AC5E08B00070129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088758DD1AC5E08B00070129 /* GameScene.swift in Sources */,
+				088758DF1AC5E08B00070129 /* GameViewController.swift in Sources */,
+				088758D91AC5E08B00070129 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088758E81AC5E08B00070129 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088758F31AC5E08B00070129 /* conquerTheGalaxyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		088758EE1AC5E08B00070129 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 088758D21AC5E08B00070129 /* conquerTheGalaxy */;
+			targetProxy = 088758ED1AC5E08B00070129 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		088758E01AC5E08B00070129 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				088758E11AC5E08B00070129 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		088758E51AC5E08B00070129 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				088758E61AC5E08B00070129 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		088758F41AC5E08B00070129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		088758F51AC5E08B00070129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		088758F71AC5E08B00070129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = conquerTheGalaxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		088758F81AC5E08B00070129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = conquerTheGalaxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		088758FA1AC5E08B00070129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = conquerTheGalaxyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/conquerTheGalaxy.app/conquerTheGalaxy";
+			};
+			name = Debug;
+		};
+		088758FB1AC5E08B00070129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = conquerTheGalaxyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/conquerTheGalaxy.app/conquerTheGalaxy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		088758CE1AC5E08B00070129 /* Build configuration list for PBXProject "conquerTheGalaxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088758F41AC5E08B00070129 /* Debug */,
+				088758F51AC5E08B00070129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088758F61AC5E08B00070129 /* Build configuration list for PBXNativeTarget "conquerTheGalaxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088758F71AC5E08B00070129 /* Debug */,
+				088758F81AC5E08B00070129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		088758F91AC5E08B00070129 /* Build configuration list for PBXNativeTarget "conquerTheGalaxyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088758FA1AC5E08B00070129 /* Debug */,
+				088758FB1AC5E08B00070129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 088758CB1AC5E08B00070129 /* Project object */;
+}
