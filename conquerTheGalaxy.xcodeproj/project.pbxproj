@@ -7,14 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080087E41AF8923E00EF3122 /* FireDefault.sks in Resources */ = {isa = PBXBuildFile; fileRef = 080087E21AF8923E00EF3122 /* FireDefault.sks */; };
+		080087E91AF89CAA00EF3122 /* Downloads in Resources */ = {isa = PBXBuildFile; fileRef = 080087E81AF89CAA00EF3122 /* Downloads */; };
+		080087EF1AF8A1B200EF3122 /* tail_texture-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 080087EE1AF8A1B200EF3122 /* tail_texture-1.png */; };
+		08096AB91AED95B200132923 /* SpacemenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08096AB81AED95B200132923 /* SpacemenController.swift */; };
+		080C11BA1AC8D6F100CFCE03 /* TitleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080C11B91AC8D6F100CFCE03 /* TitleScene.swift */; };
+		08130C561AF91E9300109D78 /* tail_texture-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 08130C521AF91E9300109D78 /* tail_texture-2.png */; };
+		08130C571AF91E9300109D78 /* tail-texture-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 08130C531AF91E9300109D78 /* tail-texture-3.png */; };
+		08130C581AF91E9300109D78 /* tail-texture-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 08130C541AF91E9300109D78 /* tail-texture-4.png */; };
+		08130C591AF91E9300109D78 /* tail-texture-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 08130C551AF91E9300109D78 /* tail-texture-5.png */; };
+		084007F51AF35C1D00B1584B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 084007F41AF35C1D00B1584B /* Images.xcassets */; };
+		084007FE1AF35E0700B1584B /* buildings.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 084007F61AF35E0700B1584B /* buildings.atlas */; };
+		084007FF1AF35E0700B1584B /* meteors.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 084007F71AF35E0700B1584B /* meteors.atlas */; };
+		084008011AF35E0700B1584B /* spaceman-0.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 084007FA1AF35E0700B1584B /* spaceman-0.atlas */; };
+		084008021AF35E0700B1584B /* spaceman-1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 084007FB1AF35E0700B1584B /* spaceman-1.atlas */; };
+		084008031AF35E0700B1584B /* spaceman-2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 084007FC1AF35E0700B1584B /* spaceman-2.atlas */; };
+		084008041AF35E0700B1584B /* spaceman-3.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 084007FD1AF35E0700B1584B /* spaceman-3.atlas */; };
+		084008061AF3631E00B1584B /* meteor_tail.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 084008051AF3631E00B1584B /* meteor_tail.atlas */; };
+		084A5A841AD627D0003CACEE /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084A5A831AD627D0003CACEE /* GameData.swift */; };
+		084A5A861AD627F7003CACEE /* WeaponData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084A5A851AD627F7003CACEE /* WeaponData.swift */; };
+		084A5A881AD6636B003CACEE /* RailGun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084A5A871AD6636B003CACEE /* RailGun.swift */; };
 		088758D91AC5E08B00070129 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088758D81AC5E08B00070129 /* AppDelegate.swift */; };
 		088758DB1AC5E08B00070129 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 088758DA1AC5E08B00070129 /* GameScene.sks */; };
 		088758DD1AC5E08B00070129 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088758DC1AC5E08B00070129 /* GameScene.swift */; };
 		088758DF1AC5E08B00070129 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088758DE1AC5E08B00070129 /* GameViewController.swift */; };
 		088758E21AC5E08B00070129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088758E01AC5E08B00070129 /* Main.storyboard */; };
-		088758E41AC5E08B00070129 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088758E31AC5E08B00070129 /* Images.xcassets */; };
 		088758E71AC5E08B00070129 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 088758E51AC5E08B00070129 /* LaunchScreen.xib */; };
 		088758F31AC5E08B00070129 /* conquerTheGalaxyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088758F21AC5E08B00070129 /* conquerTheGalaxyTests.swift */; };
+		088758FD1AC5E76800070129 /* Meteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088758FC1AC5E76800070129 /* Meteor.swift */; };
+		088758FF1AC5EAAF00070129 /* MeteorShower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088758FE1AC5EAAF00070129 /* MeteorShower.swift */; };
+		08D43ACC1AC98F0A006EAE3B /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D43ACB1AC98F0A006EAE3B /* Weapon.swift */; };
+		08D43ACE1AC992AE006EAE3B /* MachineGun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D43ACD1AC992AE006EAE3B /* MachineGun.swift */; };
+		08D43AD01AC99550006EAE3B /* Laser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D43ACF1AC99550006EAE3B /* Laser.swift */; };
+		08D43AD21AC995DA006EAE3B /* Missile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D43AD11AC995DA006EAE3B /* Missile.swift */; };
+		08EEB1BD1AD9923D00381C75 /* PlanetBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EEB1BC1AD9923D00381C75 /* PlanetBase.swift */; };
+		08EEB1BF1AD9A42E00381C75 /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EEB1BE1AD9A42E00381C75 /* Projectile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +55,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		080087E21AF8923E00EF3122 /* FireDefault.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireDefault.sks; sourceTree = "<group>"; };
+		080087E81AF89CAA00EF3122 /* Downloads */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Downloads; sourceTree = "<group>"; };
+		080087EE1AF8A1B200EF3122 /* tail_texture-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tail_texture-1.png"; sourceTree = "<group>"; };
+		08096AB81AED95B200132923 /* SpacemenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpacemenController.swift; sourceTree = "<group>"; };
+		080C11B91AC8D6F100CFCE03 /* TitleScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleScene.swift; sourceTree = "<group>"; };
+		08130C521AF91E9300109D78 /* tail_texture-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tail_texture-2.png"; sourceTree = "<group>"; };
+		08130C531AF91E9300109D78 /* tail-texture-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tail-texture-3.png"; sourceTree = "<group>"; };
+		08130C541AF91E9300109D78 /* tail-texture-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tail-texture-4.png"; sourceTree = "<group>"; };
+		08130C551AF91E9300109D78 /* tail-texture-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tail-texture-5.png"; sourceTree = "<group>"; };
+		084007F41AF35C1D00B1584B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		084007F61AF35E0700B1584B /* buildings.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = buildings.atlas; path = ../buildings.atlas; sourceTree = "<group>"; };
+		084007F71AF35E0700B1584B /* meteors.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = meteors.atlas; path = ../meteors.atlas; sourceTree = "<group>"; };
+		084007FA1AF35E0700B1584B /* spaceman-0.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "spaceman-0.atlas"; sourceTree = "<group>"; };
+		084007FB1AF35E0700B1584B /* spaceman-1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "spaceman-1.atlas"; sourceTree = "<group>"; };
+		084007FC1AF35E0700B1584B /* spaceman-2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "spaceman-2.atlas"; sourceTree = "<group>"; };
+		084007FD1AF35E0700B1584B /* spaceman-3.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "spaceman-3.atlas"; sourceTree = "<group>"; };
+		084008051AF3631E00B1584B /* meteor_tail.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = meteor_tail.atlas; sourceTree = "<group>"; };
+		084A5A831AD627D0003CACEE /* GameData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameData.swift; path = ../GameData.swift; sourceTree = "<group>"; };
+		084A5A851AD627F7003CACEE /* WeaponData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeaponData.swift; path = ../WeaponData.swift; sourceTree = "<group>"; };
+		084A5A871AD6636B003CACEE /* RailGun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RailGun.swift; path = ../RailGun.swift; sourceTree = "<group>"; };
 		088758D31AC5E08B00070129 /* conquerTheGalaxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = conquerTheGalaxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		088758D71AC5E08B00070129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		088758D81AC5E08B00070129 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,11 +82,18 @@
 		088758DC1AC5E08B00070129 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		088758DE1AC5E08B00070129 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		088758E11AC5E08B00070129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		088758E31AC5E08B00070129 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		088758E61AC5E08B00070129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		088758EC1AC5E08B00070129 /* conquerTheGalaxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = conquerTheGalaxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		088758F11AC5E08B00070129 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		088758F21AC5E08B00070129 /* conquerTheGalaxyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conquerTheGalaxyTests.swift; sourceTree = "<group>"; };
+		088758FC1AC5E76800070129 /* Meteor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meteor.swift; sourceTree = "<group>"; };
+		088758FE1AC5EAAF00070129 /* MeteorShower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeteorShower.swift; sourceTree = "<group>"; };
+		08D43ACB1AC98F0A006EAE3B /* Weapon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		08D43ACD1AC992AE006EAE3B /* MachineGun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MachineGun.swift; sourceTree = "<group>"; };
+		08D43ACF1AC99550006EAE3B /* Laser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Laser.swift; sourceTree = "<group>"; };
+		08D43AD11AC995DA006EAE3B /* Missile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Missile.swift; sourceTree = "<group>"; };
+		08EEB1BC1AD9923D00381C75 /* PlanetBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlanetBase.swift; path = ../PlanetBase.swift; sourceTree = "<group>"; };
+		08EEB1BE1AD9A42E00381C75 /* Projectile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Projectile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +114,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		084007F91AF35E0700B1584B /* spacemen */ = {
+			isa = PBXGroup;
+			children = (
+				084007FA1AF35E0700B1584B /* spaceman-0.atlas */,
+				084007FB1AF35E0700B1584B /* spaceman-1.atlas */,
+				084007FC1AF35E0700B1584B /* spaceman-2.atlas */,
+				084007FD1AF35E0700B1584B /* spaceman-3.atlas */,
+			);
+			name = spacemen;
+			path = ../spacemen;
+			sourceTree = "<group>";
+		};
 		088758CA1AC5E08B00070129 = {
 			isa = PBXGroup;
 			children = (
+				080087E81AF89CAA00EF3122 /* Downloads */,
 				088758D51AC5E08B00070129 /* conquerTheGalaxy */,
 				088758EF1AC5E08B00070129 /* conquerTheGalaxyTests */,
 				088758D41AC5E08B00070129 /* Products */,
@@ -81,13 +148,22 @@
 		088758D51AC5E08B00070129 /* conquerTheGalaxy */ = {
 			isa = PBXGroup;
 			children = (
+				08D43AD61AC9972C006EAE3B /* Scenes */,
 				088758D81AC5E08B00070129 /* AppDelegate.swift */,
-				088758DA1AC5E08B00070129 /* GameScene.sks */,
-				088758DC1AC5E08B00070129 /* GameScene.swift */,
+				088758FC1AC5E76800070129 /* Meteor.swift */,
+				088758FE1AC5EAAF00070129 /* MeteorShower.swift */,
+				08EEB1BC1AD9923D00381C75 /* PlanetBase.swift */,
+				08096AB81AED95B200132923 /* SpacemenController.swift */,
+				080087E21AF8923E00EF3122 /* FireDefault.sks */,
+				08130C521AF91E9300109D78 /* tail_texture-2.png */,
+				08130C531AF91E9300109D78 /* tail-texture-3.png */,
+				08130C541AF91E9300109D78 /* tail-texture-4.png */,
+				08130C551AF91E9300109D78 /* tail-texture-5.png */,
+				080087EE1AF8A1B200EF3122 /* tail_texture-1.png */,
+				08D43AD51AC99712006EAE3B /* Weapons */,
 				088758DE1AC5E08B00070129 /* GameViewController.swift */,
-				088758E01AC5E08B00070129 /* Main.storyboard */,
-				088758E31AC5E08B00070129 /* Images.xcassets */,
-				088758E51AC5E08B00070129 /* LaunchScreen.xib */,
+				084A5A831AD627D0003CACEE /* GameData.swift */,
+				084A5A851AD627F7003CACEE /* WeaponData.swift */,
 				088758D61AC5E08B00070129 /* Supporting Files */,
 			);
 			path = conquerTheGalaxy;
@@ -96,6 +172,14 @@
 		088758D61AC5E08B00070129 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				084008051AF3631E00B1584B /* meteor_tail.atlas */,
+				084007F61AF35E0700B1584B /* buildings.atlas */,
+				084007F71AF35E0700B1584B /* meteors.atlas */,
+				084007F91AF35E0700B1584B /* spacemen */,
+				084007F41AF35C1D00B1584B /* Images.xcassets */,
+				088758DA1AC5E08B00070129 /* GameScene.sks */,
+				088758E01AC5E08B00070129 /* Main.storyboard */,
+				088758E51AC5E08B00070129 /* LaunchScreen.xib */,
 				088758D71AC5E08B00070129 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -116,6 +200,28 @@
 				088758F11AC5E08B00070129 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08D43AD51AC99712006EAE3B /* Weapons */ = {
+			isa = PBXGroup;
+			children = (
+				08D43ACB1AC98F0A006EAE3B /* Weapon.swift */,
+				08EEB1BE1AD9A42E00381C75 /* Projectile.swift */,
+				08D43AD11AC995DA006EAE3B /* Missile.swift */,
+				08D43ACD1AC992AE006EAE3B /* MachineGun.swift */,
+				08D43ACF1AC99550006EAE3B /* Laser.swift */,
+				084A5A871AD6636B003CACEE /* RailGun.swift */,
+			);
+			name = Weapons;
+			sourceTree = "<group>";
+		};
+		08D43AD61AC9972C006EAE3B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				088758DC1AC5E08B00070129 /* GameScene.swift */,
+				080C11B91AC8D6F100CFCE03 /* TitleScene.swift */,
+			);
+			name = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,10 +304,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08130C561AF91E9300109D78 /* tail_texture-2.png in Resources */,
 				088758E71AC5E08B00070129 /* LaunchScreen.xib in Resources */,
-				088758E41AC5E08B00070129 /* Images.xcassets in Resources */,
+				084008021AF35E0700B1584B /* spaceman-1.atlas in Resources */,
+				084007FF1AF35E0700B1584B /* meteors.atlas in Resources */,
+				080087E91AF89CAA00EF3122 /* Downloads in Resources */,
+				084007FE1AF35E0700B1584B /* buildings.atlas in Resources */,
+				084007F51AF35C1D00B1584B /* Images.xcassets in Resources */,
+				084008061AF3631E00B1584B /* meteor_tail.atlas in Resources */,
+				084008031AF35E0700B1584B /* spaceman-2.atlas in Resources */,
+				080087EF1AF8A1B200EF3122 /* tail_texture-1.png in Resources */,
+				08130C581AF91E9300109D78 /* tail-texture-4.png in Resources */,
+				08130C591AF91E9300109D78 /* tail-texture-5.png in Resources */,
 				088758DB1AC5E08B00070129 /* GameScene.sks in Resources */,
 				088758E21AC5E08B00070129 /* Main.storyboard in Resources */,
+				080087E41AF8923E00EF3122 /* FireDefault.sks in Resources */,
+				08130C571AF91E9300109D78 /* tail-texture-3.png in Resources */,
+				084008011AF35E0700B1584B /* spaceman-0.atlas in Resources */,
+				084008041AF35E0700B1584B /* spaceman-3.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +339,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08EEB1BF1AD9A42E00381C75 /* Projectile.swift in Sources */,
 				088758DD1AC5E08B00070129 /* GameScene.swift in Sources */,
+				084A5A841AD627D0003CACEE /* GameData.swift in Sources */,
+				08096AB91AED95B200132923 /* SpacemenController.swift in Sources */,
+				08EEB1BD1AD9923D00381C75 /* PlanetBase.swift in Sources */,
+				08D43AD01AC99550006EAE3B /* Laser.swift in Sources */,
+				084A5A861AD627F7003CACEE /* WeaponData.swift in Sources */,
 				088758DF1AC5E08B00070129 /* GameViewController.swift in Sources */,
+				084A5A881AD6636B003CACEE /* RailGun.swift in Sources */,
+				08D43ACE1AC992AE006EAE3B /* MachineGun.swift in Sources */,
+				08D43AD21AC995DA006EAE3B /* Missile.swift in Sources */,
 				088758D91AC5E08B00070129 /* AppDelegate.swift in Sources */,
+				08D43ACC1AC98F0A006EAE3B /* Weapon.swift in Sources */,
+				088758FF1AC5EAAF00070129 /* MeteorShower.swift in Sources */,
+				088758FD1AC5E76800070129 /* Meteor.swift in Sources */,
+				080C11BA1AC8D6F100CFCE03 /* TitleScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -347,6 +480,7 @@
 				INFOPLIST_FILE = conquerTheGalaxy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -357,6 +491,7 @@
 				INFOPLIST_FILE = conquerTheGalaxy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -413,6 +548,7 @@
 				088758F81AC5E08B00070129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		088758F91AC5E08B00070129 /* Build configuration list for PBXNativeTarget "conquerTheGalaxyTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +557,7 @@
 				088758FB1AC5E08B00070129 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

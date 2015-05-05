@@ -7,3 +7,16 @@
 //
 
 import Foundation
+import SpriteKit
+
+// Laser is a category of a Weapon.
+// shoot() must be overriden
+// This weapon shoots a beam that lasts 2-3 seconds, wherever the user has tapped
+// Enough cooldown for the beam to finish
+class Laser: Weapon {
+    
+    override func shoot(touchLocation: CGPoint, vector: CGPoint) {
+        
+    }
+    
+}
